@@ -71,7 +71,7 @@ A new custom ore that spawns at great depths near ocean biomes, in veins of up t
 <p align="center">
   <img src="MEDIA/ore.png" alt="Oxidized Bronze Ore" width="400">
   <br>
-  <em>Oxidized Bronze Ore generating in the world</em>
+  <em>Oxidized Bronze Ore generating in the world<br><small>Copyright & Screenshot: George Karydis.</small></em>
 </p>
 
 ---
@@ -82,7 +82,7 @@ The primary crafting material for everything in this mod. Not craftable in a cra
 <p align="center">
   <img src="MEDIA/gear.png" alt="Ancient Gear" width="400">
   <br>
-  <em>The Ancient Gear component</em>
+  <em>The Ancient Gear component<br><small>Copyright & Screenshot: George Karydis.</small></em>
 </p>
 
 **Furnace / Blast Furnace:**
@@ -92,7 +92,7 @@ The primary crafting material for everything in this mod. Not craftable in a cra
 <p align="center">
   <img src="MEDIA/gear_furnace.png" alt="Ancient Gear Smelting" width="400">
   <br>
-  <em>Smelting process for the Ancient Gear</em>
+  <em>Smelting process for the Ancient Gear<br><small>Copyright & Screenshot: George Karydis.</small></em>
 </p>
 
 ---
@@ -103,7 +103,7 @@ The central component that powers the ancient machinery. Also dropped by Talos w
 <p align="center">
   <img src="MEDIA/core.png" alt="Antikythera Core" width="400">
   <br>
-  <em>The Antikythera Core</em>
+  <em>The Antikythera Core<br><small>Copyright & Screenshot: George Karydis.</small></em>
 </p>
 
 **Crafting Table (cross):**
@@ -117,7 +117,7 @@ The central component that powers the ancient machinery. Also dropped by Talos w
 <p align="center">
   <img src="MEDIA/core_crafting.png" alt="Antikythera Core Crafting" width="400">
   <br>
-  <em>Crafting recipe for the Antikythera Core</em>
+  <em>Crafting recipe for the Antikythera Core<br><small>Copyright & Screenshot: George Karydis.</small></em>
 </p>
 
 ---
@@ -128,7 +128,7 @@ A custom interactive tool. When right-clicked, it freezes the movement of all su
 <p align="center">
   <img src="MEDIA/dial.png" alt="Chronos Dial" width="400">
   <br>
-  <em>The Chronos Dial tool</em>
+  <em>The Chronos Dial tool<br><small>Copyright & Screenshot: George Karydis.</small></em>
 </p>
 
 **Crafting Table (surrounded):**
@@ -142,13 +142,13 @@ A custom interactive tool. When right-clicked, it freezes the movement of all su
 <p align="center">
   <img src="MEDIA/dial_crafting.png" alt="Chronos Dial Crafting" width="400">
   <br>
-  <em>Crafting recipe for the Chronos Dial</em>
+  <em>Crafting recipe for the Chronos Dial<br><small>Copyright & Screenshot: George Karydis.</small></em>
 </p>
 
 <p align="center">
   <img src="MEDIA/dial_slowness.png" alt="Chronos Dial Slowness Effect" width="400">
   <br>
-  <em>Freezing nearby mobs using the Chronos Dial</em>
+  <em>Freezing nearby mobs using the Chronos Dial<br><small>Copyright & Screenshot: George Karydis.</small></em>
 </p>
 
 ---
@@ -159,7 +159,7 @@ A data-driven tracking tool. When right-clicked, it reads world data and display
 <p align="center">
   <img src="MEDIA/tracker.png" alt="Celestial Tracker" width="400">
   <br>
-  <em>The Celestial Tracker tool</em>
+  <em>The Celestial Tracker tool<br><small>Copyright & Screenshot: George Karydis.</small></em>
 </p>
 
 **Crafting Table (vertical line):**
@@ -173,13 +173,13 @@ A data-driven tracking tool. When right-clicked, it reads world data and display
 <p align="center">
   <img src="MEDIA/tracker_crafting.png" alt="Celestial Tracker Recipe" width="400">
   <br>
-  <em>Crafting recipe for the Celestial Tracker</em>
+  <em>Crafting recipe for the Celestial Tracker<br><small>Copyright & Screenshot: George Karydis.</small></em>
 </p>
 
 <p align="center">
   <img src="MEDIA/tracker_usage.png" alt="Celestial Tracker Usage" width="400">
   <br>
-  <em>Locating coordinates using the Celestial Tracker</em>
+  <em>Locating coordinates using the Celestial Tracker<br><small>Copyright & Screenshot: George Karydis.</small></em>
 </p>
 
 ---
@@ -194,7 +194,7 @@ In this mod, that guardian lives again — awakened by the misuse of his creator
 <p align="center">
   <img src="MEDIA/talos.png" alt="Talos Automaton" width="400">
   <br>
-  <em>The Talos automaton</em>
+  <em>The Talos automaton<br><small>Copyright & Screenshot: George Karydis.</small></em>
 </p>
 
 | Attribute | Value |
