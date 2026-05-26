@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "antikythera:block/oxidized_bronze_ore",
+    "particle": "antikythera:block/oxidized_bronze_ore"
+  }
+}

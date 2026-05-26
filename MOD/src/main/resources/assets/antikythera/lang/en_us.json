@@ -1,0 +1,10 @@
+{
+  "item.antikythera.ancient_gear": "Ancient Gear",
+  "item.antikythera.antikythera_core": "Antikythera Core",
+  "item.antikythera.chronos_dial": "Chronos Dial",
+  "item.antikythera.celestial_tracker": "Celestial Tracker",
+  "block.antikythera.oxidized_bronze_ore": "Oxidized Bronze Ore",
+  "itemGroup.antikythera.group": "Antikythera Mechanics",
+  "entity.antikythera.ancient_automaton": "Talos",
+  "item.antikythera.automaton_spawn_egg": "Talos Spawn Egg"
+}

@@ -1,0 +1,22 @@
+{
+  "automaton_attack": {
+    "category": "hostile",
+    "sounds": ["antikythera:automaton_attack"]
+  },
+  "automaton_hurt": {
+    "category": "hostile",
+    "sounds": ["antikythera:automaton_hurt"]
+  },
+  "automaton_ambient": {
+    "category": "hostile",
+    "sounds": ["antikythera:automaton_ambient"]
+  },
+  "automaton_step": {
+    "category": "hostile",
+    "sounds": ["antikythera:automaton_step"]
+  },
+  "automaton_spawn": {
+    "category": "hostile",
+    "sounds": ["antikythera:automaton_spawn"]
+  }
+}

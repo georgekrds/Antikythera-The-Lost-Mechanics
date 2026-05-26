@@ -1,0 +1,60 @@
+package inf2024072.antikythera.item.custom;
+
+// 1. ΕΙΣΑΓΩΓΕΣ
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.AABB;
+import net.minecraft.server.level.ServerLevel;
+import java.util.List;
+
+// 2. ΚΛΑΣΗ
+public class ChronosDialItem extends Item {
+
+    // 2.1. ΚΑΤΑΣΚΕΥΑΣΤΗΣ
+    public ChronosDialItem(Properties properties) {
+        super(properties);
+    }
+
+    // 2.2. ΧΡΗΣΗ
+    @Override
+    public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
+
+        // 2.3. ΗΧΟΣ
+        player.playSound(net.minecraft.sounds.SoundEvents.BELL_RESONATE, 1.0F, 1.0F);
+
+        // 2.4. ΚΟΣΜΟΣ
+        if (!level.isClientSide() && level instanceof ServerLevel serverLevel) {
+            // 2.5. ΠΑΓΩΜΑ
+            AABB box = player.getBoundingBox().inflate(10.0D);
+            List<LivingEntity> entities = level.getEntitiesOfClass(LivingEntity.class, box);
+            for (LivingEntity entity : entities) {
+                if (entity != player) {
+                    entity.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 100, 1));
+                }
+            }
+
+            // 2.6. ΦΘΟΡΑ
+            ItemStack stack = player.getItemInHand(hand);
+            stack.hurtAndBreak(1, player, net.minecraft.world.entity.EquipmentSlot.MAINHAND);
+
+            // 2.7. ΕΜΦΑΝΙΣΗ
+            if (stack.isEmpty()) {
+                inf2024072.antikythera.entity.AncientAutomatonEntity talos = inf2024072.antikythera.entity.ModEntities.ANCIENT_AUTOMATON.get().create(serverLevel);
+                if (talos != null) {
+                    talos.moveTo(player.getX(), player.getY(), player.getZ(), 0.0F, 0.0F);
+                    serverLevel.addFreshEntity(talos);
+                }
+            }
+        }
+
+        // 2.8. ΕΠΙΣΤΡΟΦΗ
+        return InteractionResultHolder.success(player.getItemInHand(hand));
+    }
+}

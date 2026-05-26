@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GCG",
+    "GGG"
+  ],
+  "key": {
+    "G": {
+      "item": "antikythera:ancient_gear"
+    },
+    "C": {
+      "item": "antikythera:antikythera_core"
+    }
+  },
+  "result": {
+    "id": "antikythera:chronos_dial",
+    "count": 1
+  }
+}

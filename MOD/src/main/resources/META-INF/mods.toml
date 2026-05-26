@@ -1,0 +1,15 @@
+modLoader="javafml"
+loaderVersion="[52,)"
+license="CC BY-NC 4.0"
+issueTrackerURL="https://github.com/georgekrds/Antikythera-The-Lost-Mechanics/issues"
+
+[[mods]]
+modId="antikythera"
+version="1.0.0"
+displayName="Antikythera: The Lost Mechanics"
+logoFile="logo.png"
+authors="George Karydis"
+description='''
+The mechanism was too powerful. They broke it apart and hid it beneath the earth.
+Restore the ancient technology and face the forgotten automatons.
+'''
