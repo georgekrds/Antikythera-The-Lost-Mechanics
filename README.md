@@ -3,7 +3,7 @@
 [![Java](https://img.shields.io/badge/Java-21-007396?style=flat&logo=java&logoColor=white)](https://openjdk.org/projects/jdk/21/)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-orange.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-# Antikythera: The Lost Mechanics
+# <img src="MEDIA/logo.png" alt="Logo" width="45" align="top"> Antikythera: The Lost Mechanics
 *A Minecraft 1.21.1 mod*
 
 > *"The mechanism was too powerful. They broke it apart and hid it beneath the earth. But the automatons never stopped guarding it."*
@@ -22,7 +22,7 @@ The mod was developed with and requires:
 
 ### Through the `.jar` file
 
-First, download the latest `.jar` file from the [Releases](releases) page. Then, follow the instructions below depending on the launcher you use:
+First, download the latest `.jar` file from the [Releases](https://github.com/georgekrds/Antikythera-The-Lost-Mechanics/releases/tag/v1.0.0) page. Then, follow the instructions below depending on the launcher you use:
 
 #### Option A: Official Minecraft Launcher
 Place the downloaded `.jar` file in the `mods/` directory of your Minecraft Forge installation:
